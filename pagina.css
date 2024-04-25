@@ -1,0 +1,354 @@
+@media (max-width: 480px) {
+    #title1{
+      background-color: rgb(133, 122, 235);
+      text-align: center;
+    }
+
+#title1{
+    background-color: rgb(126, 152, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100px;
+    font-size: 20px;
+}
+#title2{
+    background-color: rgb(230, 148, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100px;
+    font-size: 20px;
+}
+
+#title3{
+    background-color: rgb(219, 180, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100px;
+    font-size: 20px;
+}
+
+#heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#figura1{
+    border: 2px solid;
+    margin-bottom: 15px;
+}
+#Img11{
+    width: 100%;
+}
+#figura2{
+    border: 2px solid;
+    margin-bottom: 15px;
+}
+
+#figura3{
+    border: 2px solid;
+    margin-bottom: 20px;
+}
+
+#figura4{
+    border: 2px solid;
+    margin-bottom: 15px;
+}
+
+#Txt11{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger; 
+}
+#H21{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:start;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#Img12{
+    width: 100%;
+    
+}
+#Txt12{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(214, 234, 234);
+
+
+}
+#texto1 {
+    border: 2px solid;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(222, 217, 217);
+}
+#figura13{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#F1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Img13{
+    width: 75%;
+}
+#Txt13{
+    background-color: rgb(235, 184, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger; 
+    margin-bottom: 20px;
+}
+#Imga{
+    width: 75%;
+    border: 1px solid;
+}
+#figura23{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#Txt23{
+    background-color: rgb(235, 184, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger; 
+    margin-bottom: 20px;
+}
+
+#figura33{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#Txt33{
+    background-color: rgb(235, 184, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger; 
+    margin-bottom: 20px;
+}
+
+#figura43{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#Txt43{
+    background-color: rgb(235, 184, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger; 
+    margin-bottom: 20px;
+}
+}
+@media (min-width: 480px) {
+    #title1{
+      background-color: rgb(133, 122, 235);
+      text-align: center;
+    }
+
+
+#title1{
+        background-color: rgb(57, 81, 162);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        height: 100px;
+        font-size: 40px;
+ }
+#title2{
+        background-color: rgb(230, 148, 211);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        height: 100px;
+        font-size: 40px;
+ }
+    
+#title3{
+        background-color: rgb(126, 116, 208);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        height: 100px;
+        font-size: 40px;
+}
+
+#heading{
+    display: flex;
+   flex-direction: column;
+   background-color: bisque;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.Intro1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(64, 35, 7);
+
+}
+.Intro2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(64, 35, 7);
+
+
+}
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+   
+}
+
+.intro .Intro1 #figura1,
+.intro .Intro1 #figura2,
+.intro .Intro2 #figura3,
+.intro .Intro2 #figura4 {
+    width: 45%; /* ajusta el ancho según sea necesario */
+    margin-bottom: 20px; /* espacio entre las imágenes */
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+
+#img11 {
+    max-width: 100%;
+    height: auto;
+}
+#Txt11{
+    background-color: rgb(191, 142, 82);
+    text-align: center;
+    color: aliceblue;
+}
+
+#footer{
+    margin-top: 40px;
+    background-color: rgb(179, 138, 218);
+}
+.Introduccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#figura13,
+#figura23,
+#figura33,
+#figura43 {
+    width: calc(50% - 10px); /* El ancho de cada figura es del 50% del contenedor menos el margen */
+    margin-bottom: 20px;
+    background-color: rgb(227, 195, 153);
+
+}
+
+#F1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(115, 63, 11);
+}
+
+#Txt13 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: azure;
+}
+
+#img13,
+#imga {
+    margin-top: 10px;
+    max-width: 75%;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.Intr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.Intr > div {
+    flex: 0 1 300px; /* Para que cada div tenga un ancho fijo y no se estire */
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex; /* Agregamos flexbox para el contenedor de la imagen y el texto */
+    flex-direction:column; /* Colocar los elementos en columna */
+
+}
+
+#img12 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#H21 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    
+}
+#Txt12{
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgb(196, 151, 177);
+}
+#mm{
+    border: 2px solid;
+}
+
+#texto1 {
+    text-align: justify;
+    padding: 0 10px;
+    margin-top: 55px;
+    border: 2px solid;
+   background-color: rgb(193, 196, 196);
+
+}
+
+
+
+
+
+
+
+
+}
